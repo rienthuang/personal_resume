@@ -11,6 +11,7 @@ export class NavbarComponent implements OnInit {
 
 
   strictNavbar = false;
+  navbarOpened = false;
 
   constructor(private renderer: Renderer2) { }
 
@@ -19,13 +20,33 @@ export class NavbarComponent implements OnInit {
 
   @HostListener("window:scroll", [])
   onScroll(): void {
-    window.scrollY >= 10 ? this.strictNavbar = true : this.strictNavbar = false;
+    if (!this.navbarOpened) {
+      this.setStrictNavWhenNavbarClosed();
+    }
   }
 
   closeNavBar() {
     if (this.navbarContent.nativeElement.classList.contains('show')) {
-      this.renderer['removeClass'](this.navbarContent.nativeElement, 'show')
+      this.navbarOpened = false;
+      this.renderer['removeClass'](this.navbarContent.nativeElement, 'show');
+      this.setStrictNavWhenNavbarClosed();
     }
+  }
+
+  toggleNavbar() {
+    if (!this.navbarOpened) {
+      setTimeout(() => {
+        this.strictNavbar = true;
+        this.navbarOpened = true;
+      }, 200);
+    } else {
+      this.navbarOpened = false;
+      this.setStrictNavWhenNavbarClosed();
+    }
+  }
+
+  setStrictNavWhenNavbarClosed() {
+    window.scrollY >= 10 ? this.strictNavbar = true : this.strictNavbar = false;
   }
 
 }

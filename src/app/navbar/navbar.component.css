@@ -61,6 +61,10 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .rh-nav {
+    padding: 0;
+  }
+
   .rh-xs-nav .navbar .navbar-collapse.collapse {
     transition: height 0.8s;
   }

@@ -1,4 +1,4 @@
-<div class="container" style="height: 5000px;">
+<div class="container">
 
   <header
     class="rh-header rh-fixed-nav rh-xs-nav"
@@ -12,7 +12,8 @@
             <img src="assets/img/fedalon_logo.png" alt="logo" class="img-fluid">
           </a>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+          <button (click)="toggleNavbar()" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarContent">
             <span class="navbar-toggler-icon"></span>
           </button>
 
