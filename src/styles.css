@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  overflow-x: hidden !important;
+  position: relative;
+  color: #999999;
+  opacity: 0.9;
+}
+
+ul li {
+  color: #000;
+}
