@@ -1,0 +1,49 @@
+<div class="container" style="height: 5000px;">
+
+  <header
+    class="rh-header rh-fixed-nav rh-xs-nav"
+    [class.nav-strict]="strictNavbar">
+
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-md navbar-light rh-nav">
+
+          <a href="#" class="navbar-brand animate__animated animate__slideInDown">
+            <img src="assets/img/fedalon_logo.png" alt="logo" class="img-fluid">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarContent" #navbarContent>
+            <ul class="navbar-nav mr-0 ml-auto animate__animated animate__slideInDown">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#experiences" class="nav-link">Experiences</a>
+              </li>
+              <li class="nav-item">
+                <a href="#blog" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <div style="height: 100%" (dblclick)="closeNavBar()"></div>
+          </div>
+
+
+        </nav>
+      </div>
+    </div>
+  </header>
+
+</div>

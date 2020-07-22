@@ -1,0 +1,74 @@
+/*
+    ==============
+       Navigation
+    ==============
+*/
+.rh-nav {
+  width: 100%;
+}
+
+.rh-fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.rh-header {
+  padding: 10px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.rh-header.nav-strict {
+  background: #fff;
+  z-index: 99;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+  padding: 10px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+.rh-header .navbar-nav li {
+  margin: 0 20px;
+}
+
+.rh-header .navbar-nav li a {
+  border-bottom: 1px solid transparent;
+  font-weight: bold;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  color: #000;
+  opacity: 1;
+  line-height: 30px;
+}
+
+.rh-header .navbar-nav li a.nav-link {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.rh-header .navbar-nav li a:hover {
+  color: #0bceaf;
+}
+
+@media only screen and (max-width: 991px) {
+  .rh-xs-nav .navbar .navbar-collapse.collapse {
+    transition: height 0.8s;
+  }
+  .rh-xs-nav .navbar .navbar-collapse.collapsing {
+    height: 0 !important;
+  }
+
+  .rh-xs-nav .navbar .navbar-collapse.collapse.show {
+    height: 100vh;
+  }
+}
