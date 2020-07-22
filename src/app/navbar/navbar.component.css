@@ -46,7 +46,7 @@
   font-weight: bold;
   font-family: "roboto", sans-serif;
   font-size: 18px;
-  color: #000;
+  color: #2f3030;
   opacity: 1;
   line-height: 30px;
 }
@@ -57,7 +57,7 @@
 }
 
 .rh-header .navbar-nav li a:hover {
-  color: #0bceaf;
+  color: #ed694a;
 }
 
 @media only screen and (max-width: 991px) {

@@ -71,7 +71,7 @@
 }
 
 .rh-home .rh-header-info ul li:hover fa-icon {
-  color: coral;
+  color: #e16345;
 }
 
 .rh-home .rh-header-info .social-icon li fa-icon {
@@ -83,7 +83,7 @@
 }
 .rh-home .rh-header-info .social-icon li:hover fa-icon {
   background-color: #c2c2c2;
-  color: #000;
+  color: #636464;
 }
 
 .rh-home .rh-profile-pic {
@@ -96,7 +96,7 @@
 .rh-home .img-border {
   height: 400px;
   width: 400px;
-  border: 20px solid rgba(0, 0, 0, 0.07);
+  border: 20px solid #e16345;
   margin: auto;
   border-radius: 50%;
 }
@@ -105,7 +105,7 @@
   margin: auto;
   float: none;
   text-align: center;
-  border: 20px solid rgba(0, 0, 0, 0.17);
+  border: 20px solid #e9b843;
   border-radius: 50%;
 }
 
