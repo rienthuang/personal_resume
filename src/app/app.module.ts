@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { TagComponent } from './about/tag/tag.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProgrammingLanguageComponent } from './skills/programming-language/programming-language.component';
+import { ExperiencesComponent } from './experiences/experiences.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ProgrammingLanguageComponent } from './skills/programming-language/prog
     AboutComponent,
     TagComponent,
     SkillsComponent,
-    ProgrammingLanguageComponent
+    ProgrammingLanguageComponent,
+    ExperiencesComponent
   ],
   imports: [
     BrowserModule,
