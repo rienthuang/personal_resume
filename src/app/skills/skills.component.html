@@ -1,0 +1,51 @@
+<section class="rh-skills" id="skills">
+  <div class="container">
+    <div class="row section-separator">
+
+
+      <div class="col-sm-12 col-md-6 animate__animated animate__zoomIn wow">
+        <div class="rh-skills-content">
+          <h3>Programming</h3>
+          <div class="technical-skills">
+            <ng-container *ngFor="let language of programmingLanguages">
+              <app-programming-language [language]="language">
+              </app-programming-language>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 col-md-6 animate__animated animate__zoomIn wow">
+        <div class="rh-strengths">
+          <h3>Strengths</h3>
+          <!-- 1st Row -->
+          <div class="row strength-row animate__animated animate__zoomIn wow"
+            data-wow-delay="0.2s">
+            <div class="col-6 d-flex align-items-center">
+              <fa-icon [icon]="faBook" size="3x"></fa-icon>
+              <div class="strength-item-text">Committed to Lifelong Learning</div>
+            </div>
+            <div class="col-6 d-flex align-items-center">
+              <fa-icon [icon]="faUsers" size="3x"></fa-icon>
+              <div class="strength-item-text">Teamplayer</div>
+            </div>
+          </div>
+
+          <!-- 2nd Row -->
+          <div class="row strength-row animate__animated animate__zoomIn wow"
+            data-wow-delay="0.3s">
+            <div class="col-6 d-flex align-items-center">
+              <fa-icon [icon]="faFistRaised" size="3x"></fa-icon>
+              <div class="strength-item-text">Reliable</div>
+            </div>
+            <div class="col-6 d-flex align-items-center">
+              <fa-icon [icon]="faBalanceScale" size="3x"></fa-icon>
+              <div class="strength-item-text">Consistent</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

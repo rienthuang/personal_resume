@@ -1,0 +1,75 @@
+.rh-skills .rh-skills-content {
+  padding-right: 10px;
+}
+
+.rh-skills .rh-skills-content h3 {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.rh-skills .rh-strengths {
+  padding-left: 20%;
+}
+
+.rh-skills .rh-strengths h3 {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.rh-skills .rh-strengths .strength-row {
+  padding: 25px 0px;
+}
+.rh-skills .rh-strengths .strength-item-text {
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .rh-skills .rh-skills-content {
+    padding-right: 0;
+  }
+  .rh-skills .rh-skills-content h3 {
+    margin-bottom: 30px;
+  }
+  .rh-skills .rh-strengths {
+    padding-left: 10px;
+  }
+  .rh-skills .rh-strengths h3 {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .rh-skills .rh-skills-content {
+    padding: 0;
+  }
+  .rh-skills .rh-skills-content h3 {
+    margin-bottom: 30px;
+  }
+  .rh-skills .rh-strengths .strength-row {
+    padding-left: 50px;
+  }
+  .rh-skills .rh-strengths h3 {
+    margin: 25px 0;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .rh-skills .rh-skills-content {
+    padding: 0 15px;
+  }
+  .rh-skills .rh-skills-content h3 {
+    margin-bottom: 30px;
+  }
+  .rh-skills .rh-strengths .strength-row {
+    padding: 10px 15px;
+  }
+  .rh-skills .rh-strengths h3 {
+    margin: 25px 0;
+  }
+}

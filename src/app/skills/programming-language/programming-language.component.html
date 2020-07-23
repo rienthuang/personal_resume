@@ -1,0 +1,19 @@
+<div class="language-container">
+  <div class="language-content animate__animated animate__zoomIn wow"
+    data-wow-duration="0.8s"
+    data-wow-delay="0.2s">
+
+    <div class="label">
+      <div class="name">{{languageObj.name}}</div>
+      <div class="proficiency">{{languageObj.proficiency}}%</div>
+    </div>
+
+    <div class="progress-bar animate__animated animate__zoomIn wow"
+      data-wow-duration="0.8s">
+      <div class="progress-bar-fill animate__animated animate__slideInLeft animate__slow wow"
+        data-wow-delay="0.5s"
+        [ngStyle]="{'width' : languageObj.proficiency + '%'}"></div>
+    </div>
+
+  </div>
+</div>

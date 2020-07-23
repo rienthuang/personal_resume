@@ -10,6 +10,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { TagComponent } from './about/tag/tag.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ProgrammingLanguageComponent } from './skills/programming-language/programming-language.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { TagComponent } from './about/tag/tag.component';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    TagComponent
+    TagComponent,
+    SkillsComponent,
+    ProgrammingLanguageComponent
   ],
   imports: [
     BrowserModule,
