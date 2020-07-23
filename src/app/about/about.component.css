@@ -39,14 +39,10 @@
   color: #fff;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 768px) {
   .rh-about .rh-about-content {
     text-align: center;
     padding-left: 5px;
     margin: 30px 10px;
-  }
-
-  .rh-about .img-fluid {
-    max-height: 450px;
   }
 }

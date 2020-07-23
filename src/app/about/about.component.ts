@@ -8,7 +8,15 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 })
 export class AboutComponent implements OnInit {
 
-  skills = ["NodeJS", "AngularJS", "Java", "Html/CSS", "Docker", "Basic AWS", "Basic GCP"];
+  skills = [
+    "NodeJS",
+    "AngularJS",
+    "Java",
+    "Html/CSS",
+    "Docker",
+    "Basic AWS",
+    "Basic GCP"
+  ];
   faDownload = faDownload;
 
   constructor() { }
