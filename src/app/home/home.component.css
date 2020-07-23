@@ -14,11 +14,6 @@
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.section-separator {
-  padding: 60px 0;
-  padding-top: 100px;
-}
-
 .vertical-middle-content {
   display: -moz-flex;
   display: -ms-flexbox;
@@ -39,7 +34,7 @@
 }
 
 .home-padding {
-  padding: 180px 0;
+  padding: 180px 0 230px;
 }
 
 .rh-home .rh-header-info {
