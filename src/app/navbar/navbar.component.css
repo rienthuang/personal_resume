@@ -65,6 +65,10 @@
     padding: 0;
   }
 
+  .rh-header.nav-strict {
+    opacity: 0.95;
+  }
+
   .rh-xs-nav .navbar .navbar-collapse.collapse {
     transition: height 0.8s;
   }
@@ -78,6 +82,10 @@
 }
 
 @media only screen and (max-width: 420px) {
+  .rh-header.nav-strict {
+    opacity: 1;
+  }
+
   .rh-nav a img {
     padding-left: 17px;
   }
