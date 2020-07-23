@@ -1,0 +1,52 @@
+.shadow {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.rh-about .img-fluid {
+  max-height: 450px;
+}
+
+.rh-about .rh-about-content {
+  padding-left: 50px;
+}
+
+.rh-about .rh-about-content h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.rh-about .rh-about-content p {
+  margin-bottom: 30px;
+}
+
+.rh-about .rh-about-content .rh-about-tag {
+  margin: 10px 0px;
+  word-break: break-all;
+}
+
+.rh-about .rh-about-content .btn {
+  margin-top: 20px;
+}
+
+.rh-about .rh-about-content .btn fa-icon {
+  margin-left: 10px;
+}
+
+.btn.btn-fill {
+  background-color: #e16345;
+  color: #fff;
+}
+
+@media only screen and (max-width: 575px) {
+  .rh-about .rh-about-content {
+    text-align: center;
+    padding-left: 5px;
+    margin: 30px 10px;
+  }
+
+  .rh-about .img-fluid {
+    max-height: 450px;
+  }
+}
