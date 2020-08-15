@@ -91,7 +91,7 @@
 .rh-home .img-border {
   height: 400px;
   width: 400px;
-  border: 20px solid #e16345;
+  border: 10px solid #e16345;
   margin: auto;
   border-radius: 50%;
 }
@@ -100,8 +100,33 @@
   margin: auto;
   float: none;
   text-align: center;
-  border: 20px solid #e9b843;
+  border: 10px solid #e9b843;
   border-radius: 50%;
+}
+
+.rh-home .headshot {
+  flex-shrink: 0;
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  border: 10px solid transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-size: cover;
+  box-sizing: border-box;
+  /* box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5); */
+}
+
+.headshot-2 {
+  border-radius: 50%;
+  background-image: url("../../assets/img/rh-profile-pic.png"),
+    linear-gradient(to bottom right, #f83600, #f9d423);
+}
+
+.headshot-3 {
+  border-radius: 50% 10%;
+  background-image: url("../../assets/img/rh-profile-pic.png"),
+    linear-gradient(to bottom left, #f83600, #f9d423);
 }
 
 @media only screen and (max-width: 991px) {
