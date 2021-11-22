@@ -15,8 +15,8 @@ export class SkillsComponent implements OnInit {
   faBalanceScale = faBalanceScale
 
   programmingLanguages = [
-    { 'name': 'JavaScript (Angular + Node)', 'proficiency': 81 },
-    { 'name': 'Java', 'proficiency': 80 },
+    { 'name': 'Java', 'proficiency': 81 },
+    { 'name': 'JavaScript (Angular + Node)', 'proficiency': 80 },
     { 'name': 'HTML & CSS', 'proficiency': 60 },
     { 'name': 'Python', 'proficiency': 40 },
     { 'name': 'Docker', 'proficiency': 30 }
